@@ -38,7 +38,7 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 // The value here should match an entry in the META-INF/neoforge.mods.toml file
 @Mod(CreateNumismaticsCoinsRecipes.MOD_ID)
 public class CreateNumismaticsCoinsRecipes {
-    public static final String MOD_ID = "superman_create_numismatics_coins_recipes";
+    public static final String MOD_ID = "create_numismatics_coins_recipes";
     public static final Logger LOGGER = LogUtils.getLogger();
     // The constructor for the mod class is the first code that is run when your mod is loaded.
     // FML will recognize some parameter types like IEventBus or ModContainer and pass them in automatically.

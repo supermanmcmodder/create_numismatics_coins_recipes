@@ -9,7 +9,9 @@ import net.superman.create_numismatics_coins_recipes.CreateNumismaticsCoinsRecip
 public class ModItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(CreateNumismaticsCoinsRecipes.MOD_ID);
 
-    public static final DeferredItem<Item> Spur = ITEMS.register("Spur",
+    public static final DeferredItem<Item> SPUR = ITEMS.register("spur",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> BEVEL = ITEMS.register("bevel",
             () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
