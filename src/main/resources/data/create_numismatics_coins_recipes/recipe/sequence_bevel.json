@@ -1,0 +1,96 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "createdeco:zinc_sheet"
+  },
+  "loops": 2,
+  "results": [
+    {
+      "id": "numismatics:bevel",
+      "count": 4
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "create_numismatics_coins_recipes:bevel"
+        },
+        {
+          "fluid": "blazinghot:molten_zinc",
+          "type": "fluid_stack",
+          "amount": 50
+        }
+      ],
+      "results": [
+        {
+          "id": "create_numismatics_coins_recipes:bevel"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "create_numismatics_coins_recipes:bevel"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_numismatics_coins_recipes:bevel",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "create_numismatics_coins_recipes:bevel"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_numismatics_coins_recipes:bevel",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "create_numismatics_coins_recipes:bevel"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_numismatics_coins_recipes:bevel",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "create_numismatics_coins_recipes:bevel"
+        },
+        {
+          "fluid": "minecraft:water",
+          "type": "fluid_stack",
+          "amount": 100
+        }
+      ],
+      "results": [
+        {
+          "id": "create_numismatics_coins_recipes:bevel"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "create_numismatics_coins_recipes:bevel"
+  }
+}
