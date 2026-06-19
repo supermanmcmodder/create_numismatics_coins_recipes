@@ -1,0 +1,82 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "create:copper_sheet"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "id": "numismatics:spur",
+      "count": 4
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "create_numismatics_coins_recipes:spur"
+        },
+        {
+          "fluid": "blazinghot:molten_copper",
+          "type": "fluid_stack",
+          "amount": 50
+        }
+      ],
+      "results": [
+        {
+          "id": "create_numismatics_coins_recipes:spur"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "create_numismatics_coins_recipes:spur"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_numismatics_coins_recipes:spur",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "create_numismatics_coins_recipes:spur"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_numismatics_coins_recipes:spur",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "create_numismatics_coins_recipes:spur"
+        },
+        {
+          "fluid": "minecraft:water",
+          "type": "fluid_stack",
+          "amount": 100
+        }
+      ],
+      "results": [
+        {
+          "id": "create_numismatics_coins_recipes:spur"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "create_numismatics_coins_recipes:spur"
+  }
+}

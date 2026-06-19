@@ -13,6 +13,15 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> BEVEL = ITEMS.register("bevel",
             () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> SPROCKET = ITEMS.register("sprocket",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> COG = ITEMS.register("cog",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> CROWN = ITEMS.register("crown",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> SUN = ITEMS.register("sun",
+            () -> new Item(new Item.Properties()));
+
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

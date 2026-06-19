@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "create_numismatics_coins_recipes:item/crown"
+  }
+}
