@@ -75,12 +75,12 @@
       "type": "create:pressing",
       "ingredients": [
         {
-          "item": "create_numismatics_coins_recipes:cog"
+          "item": "create_numismatics_coins_recipes:sun"
         }
       ],
       "results": [
         {
-          "id": "create_numismatics_coins_recipes:cog",
+          "id": "create_numismatics_coins_recipes:sun",
           "count": 1
         }
       ]
@@ -89,12 +89,12 @@
       "type": "create:pressing",
       "ingredients": [
         {
-          "item": "create_numismatics_coins_recipes:cog"
+          "item": "create_numismatics_coins_recipes:sun"
         }
       ],
       "results": [
         {
-          "id": "create_numismatics_coins_recipes:cog",
+          "id": "create_numismatics_coins_recipes:sun",
           "count": 1
         }
       ]
@@ -103,12 +103,12 @@
       "type": "create:pressing",
       "ingredients": [
         {
-          "item": "create_numismatics_coins_recipes:cog"
+          "item": "create_numismatics_coins_recipes:sun"
         }
       ],
       "results": [
         {
-          "id": "create_numismatics_coins_recipes:cog",
+          "id": "create_numismatics_coins_recipes:sun",
           "count": 1
         }
       ]
@@ -117,12 +117,12 @@
       "type": "create:pressing",
       "ingredients": [
         {
-          "item": "create_numismatics_coins_recipes:cog"
+          "item": "create_numismatics_coins_recipes:sun"
         }
       ],
       "results": [
         {
-          "id": "create_numismatics_coins_recipes:cog",
+          "id": "create_numismatics_coins_recipes:sun",
           "count": 1
         }
       ]

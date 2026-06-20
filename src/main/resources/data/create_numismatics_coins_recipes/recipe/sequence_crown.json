@@ -18,7 +18,7 @@
           "item": "create_numismatics_coins_recipes:crown"
         },
         {
-          "fluid": "blazinghot:molten_brass",
+          "fluid": "blazinghot:molten_gold",
           "type": "fluid_stack",
           "amount": 250
         }
@@ -89,12 +89,12 @@
       "type": "create:pressing",
       "ingredients": [
         {
-          "item": "create_numismatics_coins_recipes:cog"
+          "item": "create_numismatics_coins_recipes:crown"
         }
       ],
       "results": [
         {
-          "id": "create_numismatics_coins_recipes:cog",
+          "id": "create_numismatics_coins_recipes:crown",
           "count": 1
         }
       ]
@@ -103,12 +103,12 @@
       "type": "create:pressing",
       "ingredients": [
         {
-          "item": "create_numismatics_coins_recipes:cog"
+          "item": "create_numismatics_coins_recipes:crown"
         }
       ],
       "results": [
         {
-          "id": "create_numismatics_coins_recipes:cog",
+          "id": "create_numismatics_coins_recipes:crown",
           "count": 1
         }
       ]
