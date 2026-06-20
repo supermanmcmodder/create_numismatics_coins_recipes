@@ -61,7 +61,7 @@ Example mod description.
 # The coremods config file path is not configurable and is always loaded from META-INF/coremods.json
 
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
-[[dependencies.${mod_id}]] #optional
+[[dependencies.create_numismatic_coins_recipes]] #optional
     # the modid of the dependency
     modId="neoforge" #mandatory
     # The type of the dependency. Can be one of "required", "optional", "incompatible" or "discouraged" (case insensitive).
@@ -80,12 +80,43 @@ Example mod description.
     side="BOTH"
 
 # Here's another dependency
-[[dependencies.${mod_id}]]
+[[dependencies.create_numismatic_coins_recipes]]
     modId="minecraft"
     type="required"
     # This version range declares a minimum of the current minecraft version up to but not including the next major version
     versionRange="${minecraft_version_range}"
     ordering="NONE"
+    side="BOTH"
+
+[[dependencies.create_numismatic_coins_recipes]]       # /!\ Remplacez "votredemo" par votre propre modId
+    modId="create"
+    type="required"
+    versionRange="[0.6,)"
+    ordering="AFTER"
+    side="BOTH"
+
+# --- DEPENDANCE : CREATE DECO ---
+[[dependencies.create_numismatic_coins_recipes]]
+    modId="createdeco"
+    type="required"
+    versionRange="[2.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+# --- DEPENDANCE : CREATE BLAZING HOT ---
+[[dependencies.create_numismatic_coins_recipes]]
+    modId="blazinghot"
+    type="required"
+    versionRange="[0.7,)"
+    ordering="AFTER"
+    side="BOTH"
+
+# --- DEPENDANCE : CREATE NUMISMATIC ---
+[[dependencies.create_numismatic_coins_recipes]]       # /!\ Remplacez "votredemo" par votre propre modId
+    modId="numismatic"  # L'ID dépend du mod exact (souvent numismatic_overhaul ou create_numismatics)
+    type="required"
+    versionRange="[1.0.18,)"
+    ordering="AFTER"
     side="BOTH"
 
 # Features are specific properties of the game environment, that you may want to declare you require. This example declares
