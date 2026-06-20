@@ -1,0 +1,110 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "create:iron_sheet"
+  },
+  "loops": 3,
+  "results": [
+    {
+      "id": "numismatics:sprocket",
+      "count": 4
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "create_numismatics_coins_recipes:sprocket"
+        },
+        {
+          "fluid": "blazinghot:molten_iron",
+          "type": "fluid_stack",
+          "amount": 150
+        }
+      ],
+      "results": [
+        {
+          "id": "create_numismatics_coins_recipes:sprocket"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "create_numismatics_coins_recipes:sprocket"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_numismatics_coins_recipes:sprocket",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "create_numismatics_coins_recipes:sprocket"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_numismatics_coins_recipes:sprocket",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "create_numismatics_coins_recipes:sprocket"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_numismatics_coins_recipes:sprocket",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "create_numismatics_coins_recipes:sprocket"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_numismatics_coins_recipes:sprocket",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "create_numismatics_coins_recipes:sprocket"
+        },
+        {
+          "fluid": "minecraft:water",
+          "type": "fluid_stack",
+          "amount": 200
+        }
+      ],
+      "results": [
+        {
+          "id": "create_numismatics_coins_recipes:sprocket"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "create_numismatics_coins_recipes:sprocket"
+  }
+}

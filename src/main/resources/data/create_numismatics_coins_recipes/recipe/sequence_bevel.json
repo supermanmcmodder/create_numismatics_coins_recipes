@@ -20,7 +20,7 @@
         {
           "fluid": "blazinghot:molten_zinc",
           "type": "fluid_stack",
-          "amount": 50
+          "amount": 100
         }
       ],
       "results": [
@@ -80,7 +80,7 @@
         {
           "fluid": "minecraft:water",
           "type": "fluid_stack",
-          "amount": 100
+          "amount": 150
         }
       ],
       "results": [

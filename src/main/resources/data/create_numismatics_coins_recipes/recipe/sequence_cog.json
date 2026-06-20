@@ -1,0 +1,124 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "create:brass_sheet"
+  },
+  "loops": 4,
+  "results": [
+    {
+      "id": "numismatics:cog",
+      "count": 4
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "create_numismatics_coins_recipes:cog"
+        },
+        {
+          "fluid": "blazinghot:molten_brass",
+          "type": "fluid_stack",
+          "amount": 200
+        }
+      ],
+      "results": [
+        {
+          "id": "create_numismatics_coins_recipes:cog"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "create_numismatics_coins_recipes:cog"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_numismatics_coins_recipes:cog",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "create_numismatics_coins_recipes:cog"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_numismatics_coins_recipes:cog",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "create_numismatics_coins_recipes:cog"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_numismatics_coins_recipes:cog",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "create_numismatics_coins_recipes:cog"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_numismatics_coins_recipes:cog",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "create_numismatics_coins_recipes:cog"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_numismatics_coins_recipes:cog",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "create_numismatics_coins_recipes:cog"
+        },
+        {
+          "fluid": "minecraft:water",
+          "type": "fluid_stack",
+          "amount": 250
+        }
+      ],
+      "results": [
+        {
+          "id": "create_numismatics_coins_recipes:cog"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "create_numismatics_coins_recipes:cog"
+  }
+}

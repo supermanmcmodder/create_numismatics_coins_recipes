@@ -1,0 +1,152 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "minecraft:netherite_ingot"
+  },
+  "loops": 6,
+  "results": [
+    {
+      "id": "numismatics:sun",
+      "count": 4
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "create_numismatics_coins_recipes:sun"
+        },
+        {
+          "fluid": "blazinghot:molten_netherite",
+          "type": "fluid_stack",
+          "amount": 250
+        }
+      ],
+      "results": [
+        {
+          "id": "create_numismatics_coins_recipes:sun"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "create_numismatics_coins_recipes:sun"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_numismatics_coins_recipes:sun",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "create_numismatics_coins_recipes:sun"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_numismatics_coins_recipes:sun",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "create_numismatics_coins_recipes:sun"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_numismatics_coins_recipes:sun",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "create_numismatics_coins_recipes:cog"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_numismatics_coins_recipes:cog",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "create_numismatics_coins_recipes:cog"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_numismatics_coins_recipes:cog",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "create_numismatics_coins_recipes:cog"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_numismatics_coins_recipes:cog",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "create_numismatics_coins_recipes:cog"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_numismatics_coins_recipes:cog",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "create_numismatics_coins_recipes:sun"
+        },
+        {
+          "fluid": "minecraft:water",
+          "type": "fluid_stack",
+          "amount": 300
+        }
+      ],
+      "results": [
+        {
+          "id": "create_numismatics_coins_recipes:sun"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "create_numismatics_coins_recipes:sun"
+  }
+}
