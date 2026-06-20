@@ -112,8 +112,8 @@ Example mod description.
     side="BOTH"
 
 # --- DEPENDANCE : CREATE NUMISMATIC ---
-[[dependencies.create_numismatics_coins_recipes]]       # /!\ Remplacez "votredemo" par votre propre modId
-    modId="numismatic"  # L'ID dépend du mod exact (souvent numismatic_overhaul ou create_numismatics)
+[[dependencies.create_numismatics_coins_recipes]]
+    modId="numismatics"
     type="required"
     versionRange="[1.0.18,)"
     ordering="AFTER"
